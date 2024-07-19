@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-weight: normal;
+  // font-size: medium;
+  text-decoration: none;
+}
+
+:root {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header {
+  background-color: #62f1c2;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  padding: 30px;
+
+  text-align: center;
+
+  border: 2px solid #62f1c2;
+  border-radius: 10px;
+
+  .title {
+    font-size: 40px;
+    margin-bottom: 10px;
+
+    font-style: italic;
+  }
+  .name {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
